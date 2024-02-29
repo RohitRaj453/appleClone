@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height:45px;
+    background-color: rgb(69,69,69);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#logo{
+    height: 30px;
+    width: 44px;
+    background-image: url(asset\ 50.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+ img{
+    width: 30px;
+    height: 44px;
+    
+}
+#nav-links{
+    display: flex;
+   gap: 30px;
+}
+#nav-links a{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 100;
+}
+
+/* nav ends  */
+
+.banner{
+    height: 45px;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-txt{
+    color: rgb(69,69,69);
+    font-size: 14px;
+}
+.banner-txt a{
+    color: rgb(0, 183, 255) !important;
+    font-size: 15px !important;
+}
+
+/* hero section  */
+
+#hero{
+    width: 100%;
+    height: 575px;
+    background-color: #F5F5F7;
+    background-image: url(asset\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero-desc{
+    text-align: center;
+    padding-top: 50px;
+}
+.hero-heading h1{
+    color: rgb(42, 42, 42);
+    font-size:4rem;
+    font-weight: 600 !important;
+}
+.hero-sub-heading h3{
+    padding-bottom: 10px;
+    color: rgb(42, 42, 42);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.primary-btn{
+    color: rgb(1, 151, 210);
+    font-size: 1.25rem;
+    transition: 0s all ease-in;
+}
+.primary-btn:hover{
+    border-bottom: 1.25px solid rgb(1, 151, 210);
+}
+.btn1,.btn2{
+    padding-left: 15px;
+}
+
+/* iphone-14-pro-section */
+.i-14-pro-sec{
+    height: 600px;
+    background-color: black;
+    background-image: url(asset\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+    
+}
+
+.pro-desc{
+    text-align: center;
+    padding-top: 55px;
+}
+
+.pro-hdr{
+   color: white;
+   font-size: 3rem;
+   font-weight: 800;
+}
+
+.pro-sub-hdr{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-top: 6px;
+    padding-bottom: 15px;
+}
+
+.btn3,.btn4{
+    padding-right: 30px;
+}
+
+/* iphone-14-wonderful-section-start   */
+
+.i-14-wonderfull{
+    height: 600px;
+    background-image: url(asset\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.i-14-desc{
+    text-align: center;
+    padding-top: 55px;
+}
+.i-14-desc h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgb(21, 21, 21);
+}
+.i-14-desc h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-bottom: 15px;
+}
+.btn5,.btn6{
+    padding-right: 30px;
+}
+
+/* catogry-section-start  */
+.cat-left-right-margin{
+    margin-inline:15px;
+}
+
+.catogry {
+    height: 600px;
+    display: flex;
+   
+}
+/* catogry-section-1 */
+
+.left{
+    width: 50%;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.left-haeding{
+    color: rgb(21, 21, 21) !important;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.left-para{
+    color: rgb(21, 21, 21) !important;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.btn7,.btn8{
+    padding-right: 30px;
+}
+
+.right{
+    width: 50%;
+    background-color: black;
+    background-image: url(asset\ 10.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    text-align: center;
+}
+.right-heading{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.right-sub{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.right-sub img{
+    width: auto;
+    height: auto;
+}
+
+.left2{
+    width: 50%;
+    background-image: url(asset\ 11.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F3F2F5;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 15px;
+}
+
+.left2 h2{
+    color: rgb(21, 21, 21);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.left2 p{
+    color: rgb(21, 21, 21);
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.right2{
+    width: 50%;
+    background-color: #fff;
+    background-image: url(asset\ 13.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    margin-left:15px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.right2 img{
+    width: auto;
+    height: auto;
+}
+.right2 h3{
+    color: rgb(21, 21, 21);
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.left3{
+    width: 50%;
+    background-color: #F5F5F7;
+    background-image: url(asset\ 14.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 55px;
+    margin-top: 15px;
+    /* margin-right: 15px; */
+    text-align: center;
+}
+.left3 h1{
+    font-size: 2.88rem;
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+}
+.left3 p{
+    font-weight: 400;
+    color: rgb(27, 27, 27);
+    padding-bottom: 10px;
+}
+
+.right3{
+    width: 50%;
+    background-color: #000;
+    background-image: url(asset\ 16.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.right3 img{
+    height: auto;
+    width: auto;
+}
+.right3 h3{
+    color: #fff;
+    padding-block: 10px;
+}
+
+/* footer-section-start  */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 55px;
+    background-color: #F5F5F7;
+}
+
+.col{
+    color: rgb(27, 27, 27);
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+
+.foot-link{
+    color: rgb(117, 117, 117);
+    font-size: 0.83rem;   
+}
+/* footer-section-end  */
+
+/* sub-foot-start  */
+.sub-foot{
+    background-color: #F5F5F7;
+}
+
+.sub-heading{
+    display: flex;
+    align-items: center;
+}
+/* sub-foot-end  */
